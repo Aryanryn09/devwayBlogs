@@ -1,0 +1,8 @@
+.Sidebar {
+  /* display: flex; */
+  flex: 3;
+  background-color: #fbfbfb;
+}
+.sidebarItems > img {
+  display: flex;
+}
