@@ -1,10 +1,9 @@
 import React from "react";
 import "./signup.css";
-import Navbar from "../../topbar/Navbar";
+// import Navbar from "../../topbar/Navbar";
 function Signup() {
   return (
     <>
-      <Navbar />
       <div className="register">
         <span className="registerTitle">Register</span>
         <form action="" className="registerForm">
@@ -18,8 +17,9 @@ function Signup() {
           <input type="password" />
           <button className="registerBtn">Register</button>
         </form>
-        <span>Don't Have an account ? </span>
+        <span>Already Have an account ? </span>
         {/* <button className="registerBtn">L</button> */}
+        <button className="loginBtn">Login</button>
       </div>
     </>
   );

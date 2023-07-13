@@ -4,9 +4,11 @@
 .home {
   display: flex;
   flex: 1;
+  width: 100%;
 }
 .sidebar {
   flex: 2;
+  position: fixed;
   margin: 10px;
 }
 .posts {
@@ -19,4 +21,5 @@
   /* align-items: center; */
   justify-content: center;
   margin-bottom: 2rem;
+  z-index: 2;
 }

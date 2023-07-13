@@ -1,10 +1,9 @@
 import React from "react";
 import "./login.css";
-import Navbar from "../../topbar/Navbar";
+// import Navbar from "../../topbar/Navbar";
 function Login() {
   return (
     <>
-      <Navbar />
       <div className="login">
         <span className="loginTitle">Login</span>
         <form action="" className="loginForm">

@@ -1,12 +1,17 @@
 .post {
   margin: 3rem 8rem 0rem 2rem;
   /* width: 385px; */
-  z-index: 1;
+  /* z-index: 1; */
   /* border: 1px solid black; */
   background-color: rgb(201, 201, 248);
   border-radius: 30px;
-  display: grid;
+
   column-gap: 50px;
+}
+.postRen > img {
+  z-index: 1;
+
+  display: block;
 }
 .postRen {
   width: 385px;

@@ -6,6 +6,7 @@
 }
 .sidebarItems > img {
   display: flex;
+  z-index: 5;
   justify-content: center;
   align-items: center;
 }
