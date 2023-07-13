@@ -32,3 +32,17 @@
   font-size: 20px;
   color: #666;
 }
+.singlePostDate {
+  margin: 2rem auto;
+  margin-top: 3rem;
+}
+.singlePostAuthor {
+  margin: 2rem auto;
+  margin-top: 3rem;
+}
+.postContent::first-letter {
+  font-size: 3rem;
+}
+.postContent {
+  margin: 2rem;
+}

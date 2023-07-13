@@ -25,11 +25,12 @@ function Navbar() {
       </div>
 
       <div className="nav-right">
-        <FindReplaceIcon />
+        <Person3Icon className="icon" />
+
         <div className="nav-i">
           <input type="text" placeholder="search" />
         </div>
-        <Person3Icon />
+        <FindReplaceIcon className="icon" />
       </div>
     </div>
   );

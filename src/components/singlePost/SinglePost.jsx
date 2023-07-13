@@ -28,10 +28,22 @@ function SinglePost() {
             Date : <b>1 hour ago</b>
           </span>
         </div>
-        <p>
+        <p className="postContent">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio aut
           accusantium ipsum, commodi nam repellendus eaque ad explicabo. Illo,
           porro quaerat? Placeat ea quo eum quisquam corporis ex aliquam veniam!
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+          nisi sequi perferendis quisquam aut nostrum, architecto et pariatur
+          illo, doloremque id consectetur labore. Tempora natus eligendi
+          eveniet, distinctio alias odit quisquam. Eligendi numquam molestias
+          repudiandae voluptatibus unde, doloremque modi, labore praesentium qui
+          impedit iure cupiditate incidunt vero aliquam, magnam maiores eius
+          libero aut veritatis. Ex repudiandae officiis iste alias qui ratione
+          fuga commodi unde quibusdam, perferendis nemo nam voluptates eum. Aut
+          odio necessitatibus, molestiae ratione voluptatum corrupti unde harum
+          repudiandae at, eligendi tempora aliquid, quibusdam sequi atque
+          aspernatur quas beatae reprehenderit fuga. Maiores ratione fugit saepe
+          ex voluptatem sunt consequatur.
         </p>
       </div>
     </div>

@@ -17,11 +17,12 @@ function Post() {
           <hr />
           <span className="postDate">1 hr ago</span>
           <p className="postDes">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. In aperiam
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic beatae
-            molestiae, doloremque pariatur tenetur nihil deleniti! Labore sequi
-            cum molestias, ea accusamus numquam unde earum perferendis
-            dignissimos illo voluptate animi.
+            <span className="firstLetter">L</span> orem ipsum dolor sit amet
+            consectetur, adipisicing elit. In aperiam Lorem, ipsum dolor sit
+            amet consectetur adipisicing elit. Hic beatae molestiae, doloremque
+            pariatur tenetur nihil deleniti! Labore sequi cum molestias, ea
+            accusamus numquam unde earum perferendis dignissimos illo voluptate
+            animi.
           </p>
         </div>
       </div>

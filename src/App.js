@@ -1,13 +1,14 @@
 import React from "react";
-// import Homee from "./components/pages/Home/Homee";
 import "./app.css";
-import Navbar from "./components/topbar/Navbar";
-import Single from "./components/Single/Single";
+// import Settings from "./components/Settings/Settings";
+import Login from "./components/pages/Home/Login/Login";
+// import { Settings } from "@mui/icons-material";
+// import { Settings } from "@mui/icons-material";
+// import Sidebar from "./components/Sidebar/Sidebar";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Single />
+      <Login />
     </div>
   );
 }
