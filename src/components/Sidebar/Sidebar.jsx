@@ -7,17 +7,19 @@ function Sidebar() {
   return (
     <div className="Sidebar">
       <div className="sidebarItems">
-        <span className="sidebarTitle">ABOUT ME</span>
         <img
           src="https://th.bing.com/th/id/OIP.O9v8TdFG-O5lOc5Zk9FDtQAAAA?pid=ImgDet&rs=1"
           alt=""
         />
+        <span className="sidebarTitle">ABOUT ME</span>
+
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
           quisquam fugiat enim. Dolorum inventore alias deleniti quibusdam ab.
           Ex corrupti accusamus iste a? Recusandae accusamus nam eius? Dolores,
           facilis asperiores?
         </p>
+        <hr />
       </div>
       <div className="sidebaritem">
         <span className="sidebarTitle">CATAGORIES</span>
@@ -29,6 +31,7 @@ function Sidebar() {
           <li className="sidebarListItem">MACHINE LEARNING</li>
         </ul>
       </div>
+      <hr />
       <div className="sidebbar-item">
         FOLLOW US
         <div className="sidebar-socials">
