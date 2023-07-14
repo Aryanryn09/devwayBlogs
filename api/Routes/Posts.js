@@ -24,7 +24,7 @@ router.put("/:id", async (req, res) => {
         const updatedPost = await Post.findByIdAndUpdate(
           req.params.id,
           {
-            // $set: req.body;
+            $set: req.body,
             //
           },
           { new: true }
@@ -42,3 +42,16 @@ router.put("/:id", async (req, res) => {
 });
 
 //DELETE POST
+router.delete("/:id", async (req, res) => {
+  try {
+    const post = await Post.findById(req.params.id);
+    if (post.username === req.body.username) {
+      try {
+      } catch (err) {
+        res.json(500).json(err);
+      }
+    }
+  } catch (err) {
+    res.json(500).json(err);
+  }
+});
